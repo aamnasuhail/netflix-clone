@@ -1,17 +1,26 @@
 .banner-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   height: 40vh;
-  background-color: black;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 0.4),
+      rgba(15, 2, 2, 0.5)
+    ),
+    url("../stranger.jpeg");
+  background-size: cover;
+  background-position: cover;
+  background-repeat: no-repeat;
   color: #fff;
   padding: 3rem;
 
   .banner {
-    width: 40%;
     h1 {
       font-size: 48px;
       margin-bottom: 1rem;
     }
     p {
-      font-size: 18px;
+      font-size: 20px;
     }
   }
 }

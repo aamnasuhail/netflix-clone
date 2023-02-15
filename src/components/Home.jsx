@@ -58,6 +58,7 @@ const Home = () => {
             explicabo, velit autem.
           </p>
         </div>
+        <div></div>
       </div>
       <div className="movies">
         <Row data={upcomingMovies} title="Upcoming Movies" />
